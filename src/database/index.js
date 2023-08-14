@@ -22,7 +22,7 @@ class Database {
 
   mongo () {
     this.mongoConnection = mongoose.connect(
-      'mongodb://localhost:27017/ticketsMB',
+      'mongodb://localhost:27017/codeburguer',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true
